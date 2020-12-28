@@ -123,6 +123,5 @@ public class MainFragment extends Fragment {
         newTableRow.addView(txtvType);
         newTableRow.addView(txtvDate);
         appointmentTBL.addView(newTableRow,arrayListCounter+1);
-
     }
 }
