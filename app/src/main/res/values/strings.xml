@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Appointment Reminder</string>
+    <string name="name">Name</string>
+    <string name="type">Type</string>
+    <string name="dateTime">Date/Time</string>
+    <string name="addAppointButton">Add Appointment</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnAddAppt">Add Appointment</string>
+    <string name="entName">Enter Name</string>
+
+    <string-array name="task_type">
+        <item>Personal</item>
+        <item>Work</item>
+        <item>School</item>
+        <item>Health</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
