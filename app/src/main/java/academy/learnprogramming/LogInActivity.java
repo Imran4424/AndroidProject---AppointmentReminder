@@ -41,7 +41,7 @@ public class LogInActivity extends AppCompatActivity {
 
         // if user is logged In, go to signed in screen
         if (firebaseAuth.getCurrentUser() != null) {
-            //startActivity(new Intent(this, SignedInActivity.class));
+            startActivity(new Intent(this, MainActivity.class));
             finish();
         }
     }
@@ -77,7 +77,7 @@ public class LogInActivity extends AppCompatActivity {
                             showToast("Authentication not successful");
                             Log.e("Authentication errors", task.getException().toString());
                         } else {
-                            //startActivity(new Intent(LogInActivity.this, SignedInActivity.class));
+                            startActivity(new Intent(LogInActivity.this, MainActivity.class));
                             finish();
                         }
                     }
