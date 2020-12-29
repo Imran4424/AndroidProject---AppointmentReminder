@@ -87,4 +87,8 @@ public class LogInActivity extends AppCompatActivity {
     private void showToast(String message) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
+
+    public void onRegisterClick(View view) {
+        startActivity(new Intent(this, RegisterActivity.class));
+    }
 }
