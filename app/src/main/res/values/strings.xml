@@ -8,13 +8,13 @@
     <string name="btnAddAppt">Add Appointment</string>
     <string name="entName">Enter Name</string>
 
-    <string name="action_sign_in_short">Register</string>
+    <string name="btn_register">Register</string>
     <string name="email">Email</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="minimum_password">Password is too short, enter minimum 8 characters!</string>
     <string name="auth_failed">Authentication failed, check your or password or both</string>
-    <string name="btn_login">LOGIN</string>
+    <string name="btn_login">LOG IN</string>
     <string name="btn_log_out">LOG OUT</string>
     <string name="btn_link_to_register">Not a Member? Register</string>
     <string name="btn_link_to_login">Already registered. login</string>
